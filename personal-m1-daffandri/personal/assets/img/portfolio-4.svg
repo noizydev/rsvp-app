@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" role="img" aria-labelledby="t">
+  <title id="t">Ilustrasi papan strategi bisnis dengan grafik pertumbuhan dan catatan rencana</title>
+  <rect width="400" height="260" fill="#FF7A3D"/>
+  <g stroke="#121212" stroke-opacity=".12"><path d="M0 40H400M0 80H400M0 120H400M0 160H400M0 200H400M0 240H400M40 0V260M80 0V260M120 0V260M160 0V260M200 0V260M240 0V260M280 0V260M320 0V260M360 0V260"/></g>
+  <!-- papan -->
+  <rect x="36" y="32" width="236" height="196" rx="6" fill="#FFFFFF" stroke="#121212" stroke-width="4"/>
+  <path d="M64 198h184M64 198V58" stroke="#121212" stroke-width="3.5"/>
+  <g fill="#121212" stroke="#121212" stroke-width="3">
+    <rect x="80" y="160" width="26" height="38" fill="#A78BFA"/>
+    <rect x="120" y="138" width="26" height="60" fill="#A78BFA"/>
+    <rect x="160" y="112" width="26" height="86" fill="#5EE6C8"/>
+    <rect x="200" y="76" width="26" height="122" fill="#C6F24E"/>
+  </g>
+  <path d="M84 146l40-24 40-20 44-36" fill="none" stroke="#121212" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M196 66l14-2-2 14" fill="none" stroke="#121212" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- catatan tempel -->
+  <g transform="translate(292 44)">
+    <rect width="76" height="70" fill="#C6F24E" stroke="#121212" stroke-width="4"/>
+    <rect x="12" y="16" width="50" height="6" rx="2" fill="#121212"/>
+    <rect x="12" y="30" width="40" height="6" rx="2" fill="#121212" opacity=".5"/>
+    <rect x="12" y="44" width="46" height="6" rx="2" fill="#121212" opacity=".5"/>
+  </g>
+  <g transform="translate(292 130)">
+    <rect width="76" height="70" fill="#FF9FD0" stroke="#121212" stroke-width="4"/>
+    <path d="M14 22l8 8 14-16" fill="none" stroke="#121212" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 46l8 8 14-16" fill="none" stroke="#121212" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="42" y="24" width="24" height="5" rx="2" fill="#121212"/>
+    <rect x="42" y="48" width="24" height="5" rx="2" fill="#121212"/>
+  </g>
+</svg>

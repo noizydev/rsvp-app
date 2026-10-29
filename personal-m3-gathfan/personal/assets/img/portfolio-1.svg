@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-labelledby="p1-title">
+  <title id="p1-title">Dashboard Sebaran Gempa Indonesia</title>
+  <defs>
+    <linearGradient id="p1-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset=".6" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#115e59"/>
+    </linearGradient>
+    <linearGradient id="p1-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <radialGradient id="p1-dot">
+      <stop offset="0" stop-color="#f0abfc" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#c084fc" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#p1-bg)"/>
+  <circle cx="680" cy="60" r="160" fill="#7c3aed" opacity=".25"/>
+  <circle cx="80" cy="460" r="140" fill="#14b8a6" opacity=".2"/>
+
+  <!-- KPI -->
+  <g font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif">
+    <rect x="40" y="36" width="220" height="80" rx="16" fill="#ffffff" fill-opacity=".09" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="60" y="66" fill="#c4b5fd" font-size="14">Total kejadian</text>
+    <text x="60" y="100" fill="#ffffff" font-size="28" font-weight="700">4.812</text>
+    <rect x="290" y="36" width="220" height="80" rx="16" fill="#ffffff" fill-opacity=".09" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="310" y="66" fill="#c4b5fd" font-size="14">Rata-rata magnitudo</text>
+    <text x="310" y="100" fill="#ffffff" font-size="28" font-weight="700">4,6 SR</text>
+    <rect x="540" y="36" width="220" height="80" rx="16" fill="#ffffff" fill-opacity=".09" stroke="#ffffff" stroke-opacity=".18"/>
+    <text x="560" y="66" fill="#c4b5fd" font-size="14">Kedalaman median</text>
+    <text x="560" y="100" fill="#ffffff" font-size="28" font-weight="700">35 km</text>
+  </g>
+
+  <!-- panel peta sebaran -->
+  <rect x="40" y="140" width="440" height="320" rx="18" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".16"/>
+  <g stroke="#ffffff" stroke-opacity=".07">
+    <path d="M40 220H480M40 300H480M40 380H480M150 140V460M260 140V460M370 140V460"/>
+  </g>
+  <!-- pulau-pulau abstrak -->
+  <g fill="#a5b4fc" fill-opacity=".22">
+    <path d="M70 250 q40 -30 90 -6 q30 18 60 8 l-10 22 q-60 14 -140 -4z"/>
+    <path d="M180 330 q60 -10 120 4 q40 8 70 -2 l-6 18 q-90 16 -184 -4z"/>
+    <path d="M260 230 q40 -28 70 -6 q-10 30 -40 36 q-30 -6 -30 -30z"/>
+    <path d="M350 270 q30 -20 50 4 q-10 20 -30 18z"/>
+    <path d="M400 230 q40 -10 60 20 q-30 26 -70 10z"/>
+  </g>
+  <!-- titik gempa -->
+  <g>
+    <circle cx="110" cy="250" r="26" fill="url(#p1-dot)"/>
+    <circle cx="200" cy="336" r="34" fill="url(#p1-dot)"/>
+    <circle cx="290" cy="246" r="18" fill="url(#p1-dot)"/>
+    <circle cx="330" cy="342" r="22" fill="url(#p1-dot)"/>
+    <circle cx="380" cy="280" r="16" fill="url(#p1-dot)"/>
+    <circle cx="440" cy="246" r="30" fill="url(#p1-dot)"/>
+    <circle cx="160" cy="270" r="12" fill="url(#p1-dot)"/>
+  </g>
+  <g fill="#f5d0fe">
+    <circle cx="110" cy="250" r="4"/><circle cx="200" cy="336" r="5"/><circle cx="290" cy="246" r="3"/>
+    <circle cx="330" cy="342" r="4"/><circle cx="380" cy="280" r="3"/><circle cx="440" cy="246" r="5"/><circle cx="160" cy="270" r="3"/>
+  </g>
+  <text x="62" y="172" fill="#e0e7ff" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600">Sebaran episentrum</text>
+
+  <!-- panel grafik batang -->
+  <rect x="500" y="140" width="260" height="320" rx="18" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".16"/>
+  <text x="520" y="172" fill="#e0e7ff" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600">Kejadian per tahun</text>
+  <path d="M520 430H740" stroke="#ffffff" stroke-opacity=".25"/>
+  <g fill="url(#p1-bar)">
+    <rect x="530" y="330" width="28" height="100" rx="6"/>
+    <rect x="572" y="290" width="28" height="140" rx="6"/>
+    <rect x="614" y="310" width="28" height="120" rx="6"/>
+    <rect x="656" y="240" width="28" height="190" rx="6"/>
+    <rect x="698" y="210" width="28" height="220" rx="6"/>
+  </g>
+</svg>

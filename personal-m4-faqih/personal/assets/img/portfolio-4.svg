@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t">
+  <title id="t">Ilustrasi situs web profil desa binaan</title>
+  <rect width="400" height="260" fill="#F6E7D8"/>
+  <rect x="50" y="36" width="300" height="190" rx="10" fill="#FFFDF8" stroke="#A84B2E" stroke-width="3"/>
+  <rect x="50" y="36" width="300" height="26" rx="10" fill="#A84B2E"/><rect x="50" y="50" width="300" height="12" fill="#A84B2E"/>
+  <path d="M66 160 L120 104 L160 140 L200 96 L262 160Z" fill="#6B7A3A"/>
+  <path d="M66 160 L120 120 L170 160Z" fill="#4E5A28"/>
+  <circle cx="232" cy="96" r="14" fill="#E3B27A"/>
+  <rect x="66" y="172" width="196" height="10" rx="5" fill="#E6D4BC"/>
+  <rect x="66" y="190" width="140" height="10" rx="5" fill="#E6D4BC"/>
+  <rect x="278" y="80" width="56" height="44" rx="6" fill="#F3E4CF"/><rect x="278" y="134" width="56" height="44" rx="6" fill="#F3E4CF"/>
+  <rect x="278" y="190" width="56" height="20" rx="10" fill="#C2603F"/>
+</svg>

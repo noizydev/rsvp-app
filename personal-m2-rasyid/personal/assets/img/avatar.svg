@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-labelledby="avTitle">
+  <title id="avTitle">Avatar ilustrasi Rasyid Ridlo</title>
+  <defs>
+    <clipPath id="frame"><rect x="6" y="6" width="228" height="228" rx="26"/></clipPath>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2" fill="#111" opacity=".18"/>
+    </pattern>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="240" height="240" fill="#4CC9F0"/>
+    <rect width="240" height="240" fill="url(#dots)"/>
+    <!-- sinar di belakang -->
+    <circle cx="120" cy="118" r="78" fill="#FFF4DE" stroke="#111" stroke-width="5"/>
+    <!-- badan / hoodie -->
+    <path d="M30 250 C30 196 66 172 120 172 C174 172 210 196 210 250 Z" fill="#FF6B6B" stroke="#111" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M92 176 Q120 206 148 176" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+    <line x1="108" y1="196" x2="104" y2="222" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+    <line x1="132" y1="196" x2="136" y2="222" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+    <!-- stiker gamepad di hoodie -->
+    <g transform="translate(152 200) rotate(-12)">
+      <rect x="-24" y="-13" width="48" height="26" rx="13" fill="#FFD23F" stroke="#111" stroke-width="4"/>
+      <path d="M-13 -5 v10 M-18 0 h10" stroke="#111" stroke-width="3.5" stroke-linecap="round"/>
+      <circle cx="10" cy="-3" r="3.2" fill="#111"/>
+      <circle cx="16" cy="3" r="3.2" fill="#111"/>
+    </g>
+    <!-- leher -->
+    <rect x="106" y="150" width="28" height="28" fill="#E3A877" stroke="#111" stroke-width="5"/>
+    <!-- kepala -->
+    <ellipse cx="120" cy="112" rx="46" ry="50" fill="#F1BE8C" stroke="#111" stroke-width="6"/>
+    <!-- telinga -->
+    <ellipse cx="73" cy="118" rx="8" ry="11" fill="#F1BE8C" stroke="#111" stroke-width="5"/>
+    <ellipse cx="167" cy="118" rx="8" ry="11" fill="#F1BE8C" stroke="#111" stroke-width="5"/>
+    <!-- rambut -->
+    <path d="M72 106 C68 70 92 52 122 54 C152 55 174 72 168 104 C160 92 150 86 138 88 C128 78 112 76 100 84 C92 90 82 96 72 106 Z" fill="#111" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M118 56 L130 40 L134 58 Z" fill="#111"/>
+    <!-- kacamata -->
+    <rect x="86" y="106" width="28" height="22" rx="7" fill="#FFFFFF" fill-opacity=".55" stroke="#111" stroke-width="5"/>
+    <rect x="126" y="106" width="28" height="22" rx="7" fill="#FFFFFF" fill-opacity=".55" stroke="#111" stroke-width="5"/>
+    <path d="M114 115 h12" stroke="#111" stroke-width="5"/>
+    <circle cx="100" cy="117" r="4" fill="#111"/>
+    <circle cx="140" cy="117" r="4" fill="#111"/>
+    <!-- pipi & senyum -->
+    <circle cx="90" cy="138" r="6" fill="#FF6B6B" opacity=".55"/>
+    <circle cx="150" cy="138" r="6" fill="#FF6B6B" opacity=".55"/>
+    <path d="M106 142 Q120 156 134 142" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <rect x="6" y="6" width="228" height="228" rx="26" fill="none" stroke="#111" stroke-width="6"/>
+  <!-- lencana inisial -->
+  <g transform="translate(190 46) rotate(10)">
+    <circle r="30" fill="#FFD23F" stroke="#111" stroke-width="5"/>
+    <text x="0" y="9" text-anchor="middle" font-family="'Archivo Black','Arial Black',Arial,sans-serif" font-weight="900" font-size="25" fill="#111">RR</text>
+  </g>
+</svg>

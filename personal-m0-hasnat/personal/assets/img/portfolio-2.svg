@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t">
+  <title id="t">Ilustrasi REST API: daftar endpoint</title>
+  <rect width="480" height="300" fill="#0b1210"/>
+  <text x="30" y="190" font-family="JetBrains Mono, monospace" font-size="120" fill="#16302a">{}</text>
+  <rect x="150" y="50" width="290" height="200" rx="10" fill="#101a17" stroke="#22d3ee" stroke-width="2"/>
+  <g font-family="JetBrains Mono, monospace" font-size="15">
+    <rect x="170" y="74" width="54" height="24" rx="4" fill="#39ff88"/><text x="180" y="91" fill="#0b1210" font-weight="700">GET</text>
+    <text x="236" y="91" fill="#d6e2dc">/api/ruang</text>
+    <rect x="170" y="114" width="54" height="24" rx="4" fill="#22d3ee"/><text x="175" y="131" fill="#0b1210" font-weight="700">POST</text>
+    <text x="236" y="131" fill="#d6e2dc">/api/pinjam</text>
+    <rect x="170" y="154" width="54" height="24" rx="4" fill="#febc2e"/><text x="180" y="171" fill="#0b1210" font-weight="700">PUT</text>
+    <text x="236" y="171" fill="#d6e2dc">/api/pinjam/7</text>
+    <text x="170" y="222" fill="#7f918a">200 OK - 42ms</text>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-labelledby="p4-title">
+  <title id="p4-title">Prediksi Harga Rumah</title>
+  <defs>
+    <linearGradient id="p4-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#134e4a"/>
+      <stop offset=".55" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#3b0764"/>
+    </linearGradient>
+    <linearGradient id="p4-band" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity=".25"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#p4-bg)"/>
+  <circle cx="700" cy="420" r="190" fill="#7c3aed" opacity=".22"/>
+  <circle cx="60" cy="40" r="140" fill="#2dd4bf" opacity=".16"/>
+
+  <rect x="40" y="40" width="520" height="420" rx="22" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".18"/>
+  <!-- grid & sumbu -->
+  <g stroke="#ffffff" stroke-opacity=".08">
+    <path d="M90 120H530M90 200H530M90 280H530M90 360H530M190 80V420M290 80V420M390 80V420M490 80V420"/>
+  </g>
+  <path d="M90 80V420H530" fill="none" stroke="#e0e7ff" stroke-opacity=".6" stroke-width="2"/>
+  <!-- pita interval -->
+  <path d="M90 410 L530 140 L530 90 L90 360 Z" fill="url(#p4-band)"/>
+  <!-- titik data -->
+  <g fill="#c4b5fd">
+    <circle cx="110" cy="392" r="6"/><circle cx="130" cy="370" r="6"/><circle cx="150" cy="380" r="6"/>
+    <circle cx="170" cy="350" r="6"/><circle cx="195" cy="340" r="6"/><circle cx="210" cy="360" r="6"/>
+    <circle cx="235" cy="318" r="6"/><circle cx="255" cy="300" r="6"/><circle cx="270" cy="326" r="6"/>
+    <circle cx="300" cy="282" r="6"/><circle cx="320" cy="262" r="6"/><circle cx="340" cy="290" r="6"/>
+    <circle cx="365" cy="240" r="6"/><circle cx="385" cy="226" r="6"/><circle cx="410" cy="246" r="6"/>
+    <circle cx="430" cy="200" r="6"/><circle cx="455" cy="180" r="6"/><circle cx="470" cy="208" r="6"/>
+    <circle cx="495" cy="160" r="6"/><circle cx="515" cy="138" r="6"/>
+  </g>
+  <g fill="#5eead4">
+    <circle cx="160" cy="300" r="6"/><circle cx="420" cy="300" r="6"/>
+  </g>
+  <!-- garis regresi -->
+  <path d="M90 385 L530 115" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
+
+  <g font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif">
+    <text x="530" y="446" fill="#c7d2fe" font-size="13" text-anchor="end">Luas bangunan (m²)</text>
+    <text x="70" y="74" fill="#c7d2fe" font-size="13">Harga</text>
+
+    <!-- panel metrik + rumah -->
+    <rect x="590" y="40" width="170" height="200" rx="22" fill="#ffffff" fill-opacity=".1" stroke="#ffffff" stroke-opacity=".2"/>
+    <path d="M675 82 L626 124 V190 H724 V124 Z" fill="#ffffff" fill-opacity=".85"/>
+    <path d="M675 72 L614 124 L624 132 L675 88 L726 132 L736 124 Z" fill="#a78bfa"/>
+    <rect x="662" y="150" width="26" height="40" rx="4" fill="#7c3aed"/>
+    <rect x="636" y="138" width="18" height="18" rx="3" fill="#5eead4"/>
+    <rect x="696" y="138" width="18" height="18" rx="3" fill="#5eead4"/>
+    <text x="675" y="222" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle">Rp 1,2 M</text>
+
+    <rect x="590" y="260" width="170" height="200" rx="22" fill="#ffffff" fill-opacity=".1" stroke="#ffffff" stroke-opacity=".2"/>
+    <text x="610" y="300" fill="#c7d2fe" font-size="14">R²</text>
+    <text x="610" y="336" fill="#ffffff" font-size="32" font-weight="700">0,87</text>
+    <text x="610" y="380" fill="#c7d2fe" font-size="14">MAE</text>
+    <text x="610" y="416" fill="#5eead4" font-size="26" font-weight="700">8,4%</text>
+  </g>
+</svg>

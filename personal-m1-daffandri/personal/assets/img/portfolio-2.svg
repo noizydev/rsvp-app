@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" role="img" aria-labelledby="t">
+  <title id="t">Ilustrasi ponsel berisi obrolan chatbot hiburan dengan stiker game dan anime</title>
+  <rect width="400" height="260" fill="#A78BFA"/>
+  <g stroke="#121212" stroke-opacity=".12"><path d="M0 40H400M0 80H400M0 120H400M0 160H400M0 200H400M0 240H400M40 0V260M80 0V260M120 0V260M160 0V260M200 0V260M240 0V260M280 0V260M320 0V260M360 0V260"/></g>
+  <!-- ponsel -->
+  <rect x="140" y="18" width="120" height="226" rx="16" fill="#121212"/>
+  <rect x="150" y="34" width="100" height="194" rx="8" fill="#F3F1EA"/>
+  <rect x="150" y="34" width="100" height="26" rx="8" fill="#5EE6C8"/>
+  <circle cx="166" cy="47" r="7" fill="#FFFFFF" stroke="#121212" stroke-width="2"/>
+  <rect x="180" y="43" width="44" height="8" rx="2" fill="#121212"/>
+  <!-- gelembung -->
+  <rect x="158" y="70" width="64" height="22" rx="6" fill="#FFFFFF" stroke="#121212" stroke-width="2.5"/>
+  <rect x="166" y="78" width="40" height="6" rx="2" fill="#121212" opacity=".5"/>
+  <rect x="180" y="100" width="62" height="22" rx="6" fill="#C6F24E" stroke="#121212" stroke-width="2.5"/>
+  <rect x="188" y="108" width="36" height="6" rx="2" fill="#121212"/>
+  <rect x="158" y="130" width="74" height="34" rx="6" fill="#FFFFFF" stroke="#121212" stroke-width="2.5"/>
+  <rect x="166" y="138" width="54" height="6" rx="2" fill="#121212" opacity=".5"/>
+  <rect x="166" y="150" width="38" height="6" rx="2" fill="#121212" opacity=".5"/>
+  <rect x="190" y="172" width="52" height="22" rx="6" fill="#C6F24E" stroke="#121212" stroke-width="2.5"/>
+  <rect x="198" y="180" width="28" height="6" rx="2" fill="#121212"/>
+  <!-- stiker: gamepad -->
+  <g transform="translate(40 60)">
+    <rect width="78" height="50" rx="6" fill="#FF7A3D" stroke="#121212" stroke-width="4"/>
+    <path d="M18 25h16M26 17v16" stroke="#121212" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="54" cy="20" r="5" fill="#121212"/><circle cx="62" cy="30" r="5" fill="#121212"/>
+  </g>
+  <!-- stiker: 100K+ -->
+  <g transform="translate(282 150)">
+    <rect width="88" height="46" rx="6" fill="#C6F24E" stroke="#121212" stroke-width="4"/>
+    <text x="44" y="31" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="20" fill="#121212">100K+</text>
+  </g>
+  <!-- stiker: bintang anime -->
+  <g transform="translate(300 52)">
+    <path d="M30 0l8 20 22 2-17 14 5 22-18-12-18 12 5-22L0 22l22-2z" fill="#FF9FD0" stroke="#121212" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+</svg>

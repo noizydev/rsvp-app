@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t">
+  <title id="t">Ilustrasi aplikasi RSVP: kalender dan awan</title>
+  <rect width="480" height="300" fill="#0b1210"/>
+  <path d="M0 50H480M0 100H480M0 150H480M0 200H480M0 250H480M80 0V300M160 0V300M240 0V300M320 0V300M400 0V300" stroke="#1c2a25" stroke-width="1"/>
+  <path d="M300 118a40 40 0 0 1 76-14 30 30 0 0 1 40 34 24 24 0 0 1-8 46H310a34 34 0 0 1-10-66z" fill="#0f1d1a" stroke="#22d3ee" stroke-width="3"/>
+  <rect x="80" y="70" width="170" height="160" rx="12" fill="#101a17" stroke="#39ff88" stroke-width="3"/>
+  <path d="M92 70h146a12 12 0 0 1 12 12v24H80V82a12 12 0 0 1 12-12z" fill="#39ff88"/>
+  <rect x="112" y="58" width="8" height="26" rx="4" fill="#d6e2dc"/>
+  <rect x="210" y="58" width="8" height="26" rx="4" fill="#d6e2dc"/>
+  <g fill="#1f2d29">
+    <rect x="98" y="122" width="26" height="22" rx="4"/><rect x="134" y="122" width="26" height="22" rx="4"/><rect x="170" y="122" width="26" height="22" rx="4"/><rect x="206" y="122" width="26" height="22" rx="4"/>
+    <rect x="98" y="154" width="26" height="22" rx="4"/><rect x="170" y="154" width="26" height="22" rx="4"/><rect x="206" y="154" width="26" height="22" rx="4"/>
+    <rect x="98" y="186" width="26" height="22" rx="4"/><rect x="134" y="186" width="26" height="22" rx="4"/><rect x="170" y="186" width="26" height="22" rx="4"/>
+  </g>
+  <rect x="134" y="154" width="26" height="22" rx="4" fill="#22d3ee"/>
+  <path d="M139 165l5 5 10-10" stroke="#0b1210" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M250 150C280 150 290 160 318 160" stroke="#22d3ee" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+  <text x="290" y="250" font-family="JetBrains Mono, monospace" font-size="16" fill="#39ff88">rsvp.deploy()</text>
+</svg>

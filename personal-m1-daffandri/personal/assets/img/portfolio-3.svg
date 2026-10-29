@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" role="img" aria-labelledby="t">
+  <title id="t">Ilustrasi tiket acara dan bar sisa kuota aplikasi RSVP di lima server</title>
+  <rect width="400" height="260" fill="#5EE6C8"/>
+  <g stroke="#121212" stroke-opacity=".1"><path d="M0 40H400M0 80H400M0 120H400M0 160H400M0 200H400M0 240H400M40 0V260M80 0V260M120 0V260M160 0V260M200 0V260M240 0V260M280 0V260M320 0V260M360 0V260"/></g>
+  <!-- tiket -->
+  <path d="M40 40h200v40a16 16 0 0 0 0 32v40H40v-40a16 16 0 0 0 0-32z" fill="#FFFFFF" stroke="#121212" stroke-width="4"/>
+  <path d="M184 44v104" stroke="#121212" stroke-width="3" stroke-dasharray="6 6"/>
+  <rect x="58" y="58" width="96" height="12" rx="2" fill="#121212"/>
+  <rect x="58" y="80" width="70" height="8" rx="2" fill="#121212" opacity=".45"/>
+  <rect x="58" y="98" width="110" height="16" rx="4" fill="#F3F1EA" stroke="#121212" stroke-width="3"/>
+  <rect x="58" y="98" width="76" height="16" rx="4" fill="#FF7A3D" stroke="#121212" stroke-width="3"/>
+  <text x="58" y="138" font-family="Courier New, monospace" font-size="14" font-weight="700" fill="#121212">SISA 12/40</text>
+  <text x="212" y="102" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="16" fill="#121212" transform="rotate(-90 212 96)">RSVP</text>
+  <!-- lima server -->
+  <g font-family="Courier New, monospace" font-size="13" font-weight="700" fill="#121212" stroke-width="3.5">
+    <rect x="270" y="40" width="96" height="26" rx="4" fill="#C6F24E" stroke="#121212"/><text x="282" y="58" stroke="none">m0</text>
+    <rect x="270" y="74" width="96" height="26" rx="4" fill="#A78BFA" stroke="#121212"/><text x="282" y="92" stroke="none">m1</text>
+    <rect x="270" y="108" width="96" height="26" rx="4" fill="#FFFFFF" stroke="#121212"/><text x="282" y="126" stroke="none">m2</text>
+    <rect x="270" y="142" width="96" height="26" rx="4" fill="#FFFFFF" stroke="#121212"/><text x="282" y="160" stroke="none">m3</text>
+    <rect x="270" y="176" width="96" height="26" rx="4" fill="#FFFFFF" stroke="#121212"/><text x="282" y="194" stroke="none">m4</text>
+  </g>
+  <g fill="#121212"><circle cx="352" cy="53" r="4"/><circle cx="352" cy="87" r="4"/><circle cx="352" cy="121" r="4"/><circle cx="352" cy="155" r="4"/><circle cx="352" cy="189" r="4"/></g>
+  <!-- database -->
+  <g transform="translate(110 176)">
+    <ellipse cx="40" cy="10" rx="40" ry="10" fill="#FF9FD0" stroke="#121212" stroke-width="4"/>
+    <path d="M0 10v40c0 6 18 10 40 10s40-4 40-10V10" fill="#FF9FD0" stroke="#121212" stroke-width="4"/>
+    <path d="M0 30c0 6 18 10 40 10s40-4 40-10" fill="none" stroke="#121212" stroke-width="4"/>
+  </g>
+  <path d="M196 206h70" stroke="#121212" stroke-width="3.5" stroke-dasharray="7 6"/>
+</svg>

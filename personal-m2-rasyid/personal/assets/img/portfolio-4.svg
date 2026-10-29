@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" role="img" aria-labelledby="p4t">
+  <title id="p4t">Ilustrasi game Tebak Kata Nusantara</title>
+  <defs>
+    <pattern id="p4grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0 H0 V24" fill="none" stroke="#111" stroke-width="1.5" opacity=".14"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="260" fill="#B8A4FF"/>
+  <rect width="400" height="260" fill="url(#p4grid)"/>
+  <!-- ubin huruf -->
+  <g font-family="'Archivo Black','Arial Black',Arial,sans-serif" font-weight="900" font-size="34" text-anchor="middle" fill="#111">
+    <g transform="translate(70 92) rotate(-6)">
+      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#111" transform="translate(5 5)"/>
+      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#FFFDF7" stroke="#111" stroke-width="4"/>
+      <text y="12">K</text>
+    </g>
+    <g transform="translate(140 86) rotate(4)">
+      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#111" transform="translate(5 5)"/>
+      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#7BE0AD" stroke="#111" stroke-width="4"/>
+      <text y="12">A</text>
+    </g>
+    <g transform="translate(210 94) rotate(-3)">
+      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#111" transform="translate(5 5)"/>
+      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#FFFDF7" stroke="#111" stroke-width="4"/>
+      <text y="12">T</text>
+    </g>
+    <g transform="translate(280 86) rotate(6)">
+      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#111" transform="translate(5 5)"/>
+      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#FFD23F" stroke="#111" stroke-width="4"/>
+      <text y="12">A</text>
+    </g>
+  </g>
+  <!-- slot jawaban -->
+  <g stroke="#111" stroke-width="4" fill="#FFFDF7">
+    <rect x="62" y="160" width="40" height="44" rx="6"/>
+    <rect x="110" y="160" width="40" height="44" rx="6"/>
+    <rect x="158" y="160" width="40" height="44" rx="6"/>
+    <rect x="206" y="160" width="40" height="44" rx="6"/>
+    <rect x="254" y="160" width="40" height="44" rx="6"/>
+  </g>
+  <g font-family="'Archivo Black','Arial Black',Arial,sans-serif" font-weight="900" font-size="24" text-anchor="middle" fill="#111">
+    <text x="82" y="191">B</text>
+    <text x="130" y="191">A</text>
+    <text x="178" y="191" fill="#FF6B6B">?</text>
+  </g>
+  <!-- timer -->
+  <g transform="translate(352 72)">
+    <circle r="30" fill="#FF6B6B" stroke="#111" stroke-width="4"/>
+    <circle r="20" fill="#FFFDF7" stroke="#111" stroke-width="3"/>
+    <path d="M0 0 V-14 M0 0 L9 6" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+    <rect x="-6" y="-40" width="12" height="8" rx="2" fill="#111"/>
+  </g>
+  <!-- bintang -->
+  <g fill="#FFD23F" stroke="#111" stroke-width="3.5" stroke-linejoin="round">
+    <path transform="translate(340 168) scale(1.1)" d="M0 -18 L5 -6 L18 -6 L8 2 L12 15 L0 7 L-12 15 L-8 2 L-18 -6 L-5 -6 Z"/>
+    <path transform="translate(366 214) scale(.75) rotate(15)" d="M0 -18 L5 -6 L18 -6 L8 2 L12 15 L0 7 L-12 15 L-8 2 L-18 -6 L-5 -6 Z"/>
+  </g>
+  <rect x="62" y="222" width="232" height="12" rx="6" fill="#FFFDF7" stroke="#111" stroke-width="3"/>
+  <rect x="64" y="224" width="150" height="8" rx="4" fill="#4CC9F0"/>
+</svg>

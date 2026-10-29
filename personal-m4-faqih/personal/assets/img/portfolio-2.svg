@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t">
+  <title id="t">Ilustrasi topologi jaringan router, switch, dan komputer</title>
+  <rect width="400" height="260" fill="#E9EBD6"/>
+  <g stroke="#4E5A28" stroke-width="3" fill="none">
+    <path d="M200 62 L110 128 M200 62 L290 128 M110 128 L60 200 M110 128 L160 200 M290 128 L240 200 M290 128 L340 200"/>
+  </g>
+  <g>
+    <circle cx="200" cy="62" r="24" fill="#C2603F"/>
+    <path d="M188 56 h24 m-6 -6 l6 6 l-6 6 M212 68 h-24 m6 -6 l-6 6 l6 6" stroke="#FBF4EA" stroke-width="2.5" fill="none"/>
+    <rect x="86" y="116" width="48" height="24" rx="5" fill="#6B7A3A"/>
+    <rect x="266" y="116" width="48" height="24" rx="5" fill="#6B7A3A"/>
+    <g fill="#FBF4EA"><circle cx="96" cy="128" r="2.5"/><circle cx="106" cy="128" r="2.5"/><circle cx="116" cy="128" r="2.5"/><circle cx="276" cy="128" r="2.5"/><circle cx="286" cy="128" r="2.5"/><circle cx="296" cy="128" r="2.5"/></g>
+  </g>
+  <g fill="#FFFDF8" stroke="#4E5A28" stroke-width="2.5">
+    <rect x="42" y="196" width="36" height="26" rx="3"/><rect x="142" y="196" width="36" height="26" rx="3"/>
+    <rect x="222" y="196" width="36" height="26" rx="3"/><rect x="322" y="196" width="36" height="26" rx="3"/>
+  </g>
+  <g stroke="#4E5A28" stroke-width="2.5"><path d="M52 230h16M152 230h16M232 230h16M332 230h16"/></g>
+  <text x="200" y="30" text-anchor="middle" font-family="Nunito, sans-serif" font-size="13" font-weight="800" fill="#4E5A28">192.168.10.0/24</text>
+</svg>

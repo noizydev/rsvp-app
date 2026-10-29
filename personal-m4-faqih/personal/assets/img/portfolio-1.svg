@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t">
+  <title id="t">Ilustrasi aplikasi RSVP di atas awan</title>
+  <rect width="400" height="260" fill="#F3E4CF"/>
+  <circle cx="330" cy="60" r="34" fill="#E3B27A" opacity=".6"/>
+  <path d="M90 120 a34 34 0 0 1 64 -14 a28 28 0 0 1 50 12 a24 24 0 0 1 4 47 H96 a26 26 0 0 1 -6 -45z" fill="#FBF6EE" stroke="#C2603F" stroke-width="3"/>
+  <rect x="200" y="96" width="132" height="128" rx="10" fill="#FFFDF8" stroke="#6B7A3A" stroke-width="3"/>
+  <rect x="200" y="96" width="132" height="24" rx="10" fill="#6B7A3A"/>
+  <rect x="200" y="110" width="132" height="10" fill="#6B7A3A"/>
+  <rect x="214" y="134" width="70" height="8" rx="4" fill="#C2603F"/>
+  <rect x="214" y="150" width="104" height="8" rx="4" fill="#E6D4BC"/>
+  <rect x="214" y="150" width="62" height="8" rx="4" fill="#6B7A3A"/>
+  <rect x="214" y="170" width="54" height="8" rx="4" fill="#C2603F"/>
+  <rect x="214" y="186" width="104" height="8" rx="4" fill="#E6D4BC"/>
+  <rect x="214" y="186" width="84" height="8" rx="4" fill="#6B7A3A"/>
+  <path d="M150 168 V196 H200" fill="none" stroke="#C2603F" stroke-width="3" stroke-dasharray="6 5"/>
+  <text x="122" y="146" text-anchor="middle" font-family="Nunito, sans-serif" font-size="16" font-weight="800" fill="#A84B2E">RSVP</text>
+</svg>
