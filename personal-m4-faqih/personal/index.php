@@ -71,9 +71,7 @@
         <p class="hero-meta reveal">NIM <?= htmlspecialchars(MEMBER_NIM) ?> &middot; S1 Informatika &middot; Telkom University</p>
         <div class="hero-grid">
           <div class="hero-text reveal">
-            <!-- GANTI: deskripsi singkat sesuai diri sendiri -->
-            <p>Saya mahasiswa semester 5 yang senang mengutak-atik <strong>jaringan komputer</strong> dan <strong>infrastruktur cloud</strong>: merancang topologi, mengonfigurasi server Linux, sampai menjalankan layanan dalam kontainer.</p>
-            <p>Di luar kelas saya aktif di kegiatan <strong>pengabdian masyarakat</strong> kampus, membantu sekolah dan desa mitra menyiapkan jaringan internet yang stabil dan mudah dirawat.</p>
+            <p>Saya Mahasiswa S1 Informatika yang sedang berada di semester 5, saya adalah Mahasiswa yang ingin selalu tumbuh dengan rasa penasaran yang tinggi.</p>
             <div class="hero-actions">
               <a class="btn btn-primary" href="#portofolio">Lihat Portofolio</a>
               <a class="btn btn-ghost" href="#kontak">Hubungi Saya</a>
@@ -97,16 +95,16 @@
               <span class="tl-time">2024 – sekarang</span>
               <h3>S1 Informatika</h3>
               <p class="tl-place">Telkom University, Bandung</p>
-              <p>Fokus pada mata kuliah Jaringan Komputer, Sistem Operasi, serta Komputasi Awan dan Terdistribusi. <!-- GANTI: tambahkan IPK/peminatan bila perlu --></p>
+              <p>Fokus pada mata kuliah Dasar Kecerdasan Artificial, Kecerdasan Artificial, serta Komputasi Awan dan Terdistribusi. <!-- GANTI: tambahkan IPK/peminatan bila perlu --></p>
             </div>
           </li>
           <li class="tl-item reveal">
             <span class="tl-dot" aria-hidden="true"></span>
             <div class="tl-body">
-              <span class="tl-time">2021 – 2024 <!-- GANTI --></span>
-              <h3>SMA, Jurusan MIPA <!-- GANTI --></h3>
-              <p class="tl-place">SMA Negeri — (ganti) <!-- GANTI --></p>
-              <p>Aktif di ekstrakurikuler komputer dan mulai belajar merakit PC serta jaringan sederhana di laboratorium sekolah. <!-- GANTI --></p>
+              <span class="tl-time">2018 – 2024 <!-- GANTI --></span>
+              <h3>Boarding School, Jurusan MIPA <!-- GANTI --></h3>
+              <p class="tl-place">Al-Ihsan Boarding School, Bandung <!-- GANTI --></p>
+              <p>Aktif di ekstrakurikuler Basket,Kepanitiaan berbagai tingkat Kabupaten hingga Jawa Barat,dan OSIS. <!-- GANTI --></p>
             </div>
           </li>
         </ol>
@@ -116,23 +114,13 @@
       <section id="pengalaman" class="section" aria-labelledby="judul-pengalaman">
         <h2 id="judul-pengalaman" class="section-title reveal"><span class="title-num">03</span>Pengalaman</h2>
         <ol class="timeline timeline-olive">
-          <!-- GANTI: semua entri pengalaman di bawah adalah contoh -->
-          <li class="tl-item reveal">
-            <span class="tl-dot" aria-hidden="true"></span>
-            <div class="tl-body">
-              <span class="tl-time">2025 – sekarang</span>
-              <h3>Staf Divisi Pengabdian Masyarakat</h3>
-              <p class="tl-place">Himpunan Mahasiswa Informatika <!-- GANTI --></p>
-              <p>Merancang dan memasang jaringan WiFi untuk sekolah mitra, lalu melatih guru agar mampu merawat perangkat secara mandiri.</p>
-            </div>
-          </li>
           <li class="tl-item reveal">
             <span class="tl-dot" aria-hidden="true"></span>
             <div class="tl-body">
               <span class="tl-time">2025</span>
-              <h3>Koordinator Divisi IT &amp; Jaringan</h3>
-              <p class="tl-place">Kepanitiaan Seminar Teknologi Kampus <!-- GANTI --></p>
-              <p>Menyiapkan jaringan acara untuk ±300 peserta, live streaming, serta formulir pendaftaran daring.</p>
+              <h3>Panitia PRADA 2025</h3>
+              <p class="tl-place">Kepanitiaan PRADA 2025</p>
+              <p>Berpartisipasi aktif dalam kepanitiaan PRADA 2025.</p>
             </div>
           </li>
           <li class="tl-item reveal">
@@ -140,7 +128,7 @@
             <div class="tl-body">
               <span class="tl-time">2024 – sekarang</span>
               <h3>Anggota Kelompok Studi Cloud &amp; Networking</h3>
-              <p class="tl-place">Komunitas mahasiswa Telkom University <!-- GANTI --></p>
+              <p class="tl-place">Komunitas mahasiswa Telkom University</p>
               <p>Belajar bersama tiap pekan: subnetting, Linux server, Docker, hingga dasar layanan cloud publik.</p>
             </div>
           </li>
@@ -153,13 +141,10 @@
         <div class="skills-grid">
           <div class="skill-card reveal">
             <h3>Teknis</h3>
-            <!-- GANTI: sesuaikan tingkat keahlian -->
             <ul class="skill-bars">
-              <li><span class="skill-name">Jaringan Komputer (Cisco)</span><span class="skill-val">80%</span><span class="skill-track"><span class="skill-fill" style="--lvl:80%"></span></span></li>
-              <li><span class="skill-name">Linux Server</span><span class="skill-val">75%</span><span class="skill-track"><span class="skill-fill" style="--lvl:75%"></span></span></li>
-              <li><span class="skill-name">PHP &amp; MySQL</span><span class="skill-val">70%</span><span class="skill-track"><span class="skill-fill" style="--lvl:70%"></span></span></li>
-              <li><span class="skill-name">Docker &amp; Kontainer</span><span class="skill-val">65%</span><span class="skill-track"><span class="skill-fill" style="--lvl:65%"></span></span></li>
-              <li><span class="skill-name">Layanan Cloud (dasar)</span><span class="skill-val">60%</span><span class="skill-track"><span class="skill-fill" style="--lvl:60%"></span></span></li>
+              <li><span class="skill-name">Python</span><span class="skill-val">70%</span><span class="skill-track"><span class="skill-fill" style="--lvl:70%"></span></span></li>
+              <li><span class="skill-name">Cisco Packet Tracer</span><span class="skill-val">45%</span><span class="skill-track"><span class="skill-fill" style="--lvl:45%"></span></span></li>
+              <li><span class="skill-name">Machine Learning</span><span class="skill-val">20%</span><span class="skill-track"><span class="skill-fill" style="--lvl:20%"></span></span></li>
             </ul>
           </div>
           <div class="skill-card reveal">
@@ -177,7 +162,6 @@
               <li>Cisco Packet Tracer</li>
               <li>Git</li>
               <li>XAMPP</li>
-              <li>Grafana</li>
               <li>VS Code</li>
             </ul>
           </div>
@@ -192,6 +176,7 @@
           <button type="button" class="filter-btn" data-filter="cloud" aria-pressed="false">Cloud</button>
           <button type="button" class="filter-btn" data-filter="jaringan" aria-pressed="false">Jaringan</button>
           <button type="button" class="filter-btn" data-filter="web" aria-pressed="false">Web</button>
+          <button type="button" class="filter-btn" data-filter="ai" aria-pressed="false">AI</button>
         </div>
         <!-- GANTI: sesuaikan proyek dengan yang benar-benar dikerjakan -->
         <ul class="porto-grid">
@@ -218,37 +203,26 @@
               <p>Merancang topologi untuk tiga ruang laboratorium: pembagian subnet, VLAN per ruang, DHCP terpusat, dan ACL sederhana agar jaringan dosen terpisah dari jaringan mahasiswa. <!-- GANTI --></p>
             </div>
           </li>
-          <li class="porto-item reveal" data-category="cloud">
+          <li class="porto-item reveal" data-category="ai">
             <button type="button" class="porto-card" aria-haspopup="dialog">
-              <img src="assets/img/portfolio-3.svg" alt="Ilustrasi dasbor pemantauan server dan kontainer" width="400" height="260" loading="lazy">
-              <span class="porto-cat">Cloud</span>
-              <span class="porto-title">Homelab Pemantauan Server</span>
-              <span class="porto-desc">Docker Compose berisi Prometheus dan Grafana untuk memantau server mini di rumah.</span>
+              <img src="assets/img/3.svg" alt="Ilustrasi chatbot AI untuk petshop" width="400" height="260" loading="lazy">
+              <span class="porto-cat">AI</span>
+              <span class="porto-title">Dasar Chatbot Petshop</span>
+              <span class="porto-desc">Chatbot sederhana berbasis Python untuk melayani pertanyaan pelanggan toko hewan peliharaan.</span>
             </button>
             <div class="porto-detail" hidden>
-              <p>Proyek pribadi untuk belajar observability: mengumpulkan metrik CPU, memori, dan jaringan, lalu menampilkannya di dasbor Grafana dengan peringatan bila server tidak merespons. <!-- GANTI --></p>
+              <p>Proyek chatbot menggunakan Python yang dapat menjawab pertanyaan dasar seputar produk dan layanan petshop, seperti jenis hewan, makanan, dan jadwal grooming.</p>
             </div>
           </li>
           <li class="porto-item reveal" data-category="web">
             <button type="button" class="porto-card" aria-haspopup="dialog">
-              <img src="assets/img/portfolio-4.svg" alt="Ilustrasi situs web profil desa binaan" width="400" height="260" loading="lazy">
+              <img src="assets/img/4.svg" alt="Ilustrasi sistem pengelolaan turnamen" width="400" height="260" loading="lazy">
               <span class="porto-cat">Web</span>
-              <span class="porto-title">Situs Profil Desa Binaan</span>
-              <span class="porto-desc">Laman statis ringan untuk memperkenalkan potensi desa mitra kegiatan pengabdian.</span>
+              <span class="porto-title">Sistem Pengelolaan Tournament</span>
+              <span class="porto-desc">Aplikasi berbasis web untuk mengelola bracket, jadwal pertandingan, dan hasil turnamen.</span>
             </button>
             <div class="porto-detail" hidden>
-              <p>Dibuat bersama tim pengabdian masyarakat. Situs dirancang ringan agar cepat diakses dari koneksi seluler, dan perangkat desa dilatih memperbarui konten sendiri. <!-- GANTI --></p>
-            </div>
-          </li>
-          <li class="porto-item reveal" data-category="jaringan">
-            <button type="button" class="porto-card" aria-haspopup="dialog">
-              <img src="assets/img/portfolio-5.svg" alt="Ilustrasi pemasangan titik akses WiFi di gedung sekolah" width="400" height="260" loading="lazy">
-              <span class="porto-cat">Jaringan</span>
-              <span class="porto-title">Instalasi WiFi Sekolah Mitra</span>
-              <span class="porto-desc">Survei sinyal, penempatan access point, dan manajemen bandwidth untuk sekolah mitra.</span>
-            </button>
-            <div class="porto-detail" hidden>
-              <p>Kegiatan pengabdian masyarakat: memetakan area tanpa sinyal, memasang beberapa access point, dan membuat panduan perawatan bergambar untuk staf sekolah. <!-- GANTI --></p>
+              <p>Sistem pengelolaan turnamen yang memudahkan panitia dalam mengatur bracket pertandingan, mencatat hasil, dan menampilkan klasemen secara real-time.</p>
             </div>
           </li>
         </ul>
@@ -272,14 +246,11 @@
           <div class="contact-info reveal">
             <p>Tertarik berdiskusi soal jaringan, cloud, atau kolaborasi kegiatan pengabdian? Kirim pesan lewat formulir atau hubungi saya di:</p>
             <ul class="contact-list">
-              <!-- GANTI dengan akun asli -->
-              <li><span class="c-label">Email</span><a href="mailto:faqih@example.com">faqih@example.com</a></li>
-              <!-- GANTI dengan akun asli -->
-              <li><span class="c-label">GitHub</span><a href="https://github.com/username" target="_blank" rel="noopener">github.com/username</a></li>
-              <!-- GANTI dengan akun asli -->
-              <li><span class="c-label">LinkedIn</span><a href="https://www.linkedin.com/in/username" target="_blank" rel="noopener">linkedin.com/in/username</a></li>
-              <!-- GANTI dengan akun asli -->
-              <li><span class="c-label">Instagram</span><a href="https://www.instagram.com/username" target="_blank" rel="noopener">instagram.com/username</a></li>
+              <li><span class="c-label">Email</span><a href="mailto:faqihhanifabdulrachman@gmail.com">faqihhanifabdulrachman@gmail.com</a></li>
+
+              <li><span class="c-label">GitHub</span><a href="https://github.com/FaqihHanif" target="_blank" rel="noopener">github.com/FaqihHanif</a></li>
+
+              <li><span class="c-label">Instagram</span><a href="https://www.instagram.com/faqihhanif21" target="_blank" rel="noopener">instagram.com/faqihhanif21</a></li>
             </ul>
           </div>
 
