@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t">
-  <title id="t">Ilustrasi pemasangan titik akses WiFi di gedung sekolah</title>
-  <rect width="400" height="260" fill="#EDE3CF"/>
-  <path d="M90 230 V130 L200 70 L310 130 V230Z" fill="#FFFDF8" stroke="#6B7A3A" stroke-width="3"/>
-  <path d="M76 136 L200 64 L324 136" fill="none" stroke="#A84B2E" stroke-width="8" stroke-linecap="round"/>
-  <rect x="180" y="176" width="40" height="54" rx="4" fill="#C2603F"/>
-  <rect x="116" y="150" width="40" height="32" rx="3" fill="#E9EBD6" stroke="#6B7A3A" stroke-width="2.5"/>
-  <rect x="244" y="150" width="40" height="32" rx="3" fill="#E9EBD6" stroke="#6B7A3A" stroke-width="2.5"/>
-  <g fill="none" stroke="#C2603F" stroke-width="4" stroke-linecap="round">
-    <path d="M178 116 a32 32 0 0 1 44 0"/><path d="M166 104 a50 50 0 0 1 68 0"/><path d="M154 92 a68 68 0 0 1 92 0"/>
-  </g>
-  <circle cx="200" cy="130" r="6" fill="#C2603F"/>
-  <text x="200" y="250" text-anchor="middle" font-family="Nunito, sans-serif" font-size="12" font-weight="800" fill="#4E5A28">PENGMAS · SMK MITRA</text>
-</svg>
+
