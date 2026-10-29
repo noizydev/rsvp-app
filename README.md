@@ -17,10 +17,11 @@ Aplikasi bersama yang dipilih: **Pendaftaran Acara (RSVP)**.
 
 ```
 rsvp-app/                    ← aplikasi bersama (server): PHP + MySQL
-personal-mX-nama/personal/   ← personal page tiap anggota
+personal-mX-nama/personal/   ← personal page tiap anggota, siap disalin ke htdocs
     ├── index.php, assets/
     ├── identity.php         ← MEMBER_ROUTE, MEMBER_NAMA, MEMBER_NIM
-    └── config/              ← .htaccess + db.example.php (db.php tidak di-commit)
+    ├── config/              ← .htaccess + db.example.php (db.php tidak di-commit)
+    └── app/                 ← salinan rsvp-app/
 PANDUAN.md                   ← langkah lengkap instalasi, uji, dan pengumpulan
 ```
 
@@ -29,10 +30,9 @@ Detail fitur, skema database, dan keamanan aplikasi ada di [`rsvp-app/README.md`
 ## Instalasi singkat (XAMPP)
 
 1. Salin `personal-mX-nama/personal/` milik Anda ke `C:\xampp\htdocs\personal\`.
-2. Salin folder `rsvp-app/` ke `C:\xampp\htdocs\personal\app\`.
-3. phpMyAdmin → Import `app/sql/schema.sql`, lalu jalankan `app/sql/create_user.sql` di tab SQL.
-4. Salin `config/db.example.php` menjadi `config/db.php`.
-5. Buka `http://localhost/personal/` dan `http://localhost/personal/app/`.
+2. phpMyAdmin → Import `app/sql/schema.sql`, lalu jalankan `app/sql/create_user.sql` di tab SQL.
+3. Salin `config/db.example.php` menjadi `config/db.php`.
+4. Buka `http://localhost/personal/` dan `http://localhost/personal/app/`.
 
-Folder `app/` di dalam setiap personal page tidak disimpan di repo ini karena isinya sama
-dengan `rsvp-app/`.
+Folder `app/` di setiap personal page adalah salinan `rsvp-app/`. Perubahan aplikasi
+dikerjakan di `rsvp-app/`, lalu disalin ulang ke kelima folder `app/`.
