@@ -1,12 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t">
-  <title id="t">Ilustrasi dasbor pemantauan server dan kontainer</title>
-  <rect width="400" height="260" fill="#2E231D"/>
-  <rect x="34" y="34" width="332" height="192" rx="12" fill="#3B2E26" stroke="#D9774F" stroke-width="2"/>
-  <circle cx="54" cy="52" r="5" fill="#D9774F"/><circle cx="70" cy="52" r="5" fill="#E3B27A"/><circle cx="86" cy="52" r="5" fill="#9AAB5A"/>
-  <path d="M56 170 L96 140 L130 152 L170 104 L206 126 L240 92 L280 118 L344 80" fill="none" stroke="#9AAB5A" stroke-width="3.5" stroke-linejoin="round"/>
-  <path d="M56 170 L96 140 L130 152 L170 104 L206 126 L240 92 L280 118 L344 80 V200 H56Z" fill="#9AAB5A" opacity=".18"/>
-  <g fill="#D9774F">
-    <rect x="60" y="186" width="34" height="22" rx="3"/><rect x="100" y="186" width="34" height="22" rx="3"/><rect x="140" y="186" width="34" height="22" rx="3" opacity=".6"/>
-  </g>
-  <text x="316" y="58" text-anchor="end" font-family="Nunito, sans-serif" font-size="12" font-weight="800" fill="#E3B27A">uptime 99.8%</text>
+  <title id="t">Ilustrasi chatbot AI untuk petshop</title>
+  <!-- Background -->
+  <rect width="400" height="260" fill="#1E1A14"/>
+  <!-- Window frame -->
+  <rect x="34" y="34" width="332" height="192" rx="12" fill="#2E2318" stroke="#D9774F" stroke-width="2"/>
+  <!-- Window dots -->
+  <circle cx="54" cy="52" r="5" fill="#D9774F"/>
+  <circle cx="70" cy="52" r="5" fill="#E3B27A"/>
+  <circle cx="86" cy="52" r="5" fill="#9AAB5A"/>
+  <!-- Label top-right -->
+  <text x="352" y="57" text-anchor="end" font-family="Nunito, sans-serif" font-size="12" font-weight="800" fill="#E3B27A">Python · Chatbot AI</text>
+
+  <!-- Robot face -->
+  <rect x="54" y="72" width="60" height="50" rx="10" fill="#3B2E20" stroke="#D9774F" stroke-width="2"/>
+  <!-- Antenna -->
+  <line x1="84" y1="72" x2="84" y2="58" stroke="#D9774F" stroke-width="2.5"/>
+  <circle cx="84" cy="55" r="4" fill="#D9774F"/>
+  <!-- Robot eyes -->
+  <rect x="63" y="85" width="14" height="10" rx="3" fill="#9AAB5A"/>
+  <rect x="87" y="85" width="14" height="10" rx="3" fill="#9AAB5A"/>
+  <!-- Robot mouth -->
+  <rect x="63" y="103" width="38" height="8" rx="3" fill="#E3B27A" opacity=".8"/>
+  <rect x="68" y="105" width="6" height="4" rx="1" fill="#2E2318"/>
+  <rect x="79" y="105" width="6" height="4" rx="1" fill="#2E2318"/>
+  <rect x="90" y="105" width="6" height="4" rx="1" fill="#2E2318"/>
+
+  <!-- Chat bubbles -->
+  <rect x="128" y="70" width="218" height="32" rx="10" fill="#3B2E20" stroke="#9AAB5A" stroke-width="1.5"/>
+  <text x="140" y="84" font-family="Nunito, sans-serif" font-size="10" fill="#D4E8A0">Halo! Ada yang bisa saya bantu?</text>
+  <text x="140" y="96" font-family="Nunito, sans-serif" font-size="10" fill="#D4E8A0">Tanya soal petshop kamu 🐾</text>
+
+  <rect x="148" y="114" width="196" height="26" rx="10" fill="#D9774F" opacity=".85"/>
+  <text x="162" y="131" font-family="Nunito, sans-serif" font-size="10" fill="#1E1A14" font-weight="700">Ada rekomendasi makanan kucing?</text>
+
+  <rect x="128" y="152" width="218" height="26" rx="10" fill="#3B2E20" stroke="#9AAB5A" stroke-width="1.5"/>
+  <text x="140" y="169" font-family="Nunito, sans-serif" font-size="10" fill="#D4E8A0">Coba Whiskas Adult atau Royal Canin! ✅</text>
+
+  <!-- Input bar -->
+  <rect x="54" y="196" width="312" height="20" rx="8" fill="#3B2E20" stroke="#D9774F" stroke-width="1.5" opacity=".6"/>
+  <text x="66" y="210" font-family="Nunito, sans-serif" font-size="9" fill="#E3B27A" opacity=".6">Ketik pertanyaan kamu...</text>
 </svg>
