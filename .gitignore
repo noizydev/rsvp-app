@@ -1,11 +1,7 @@
-# Kredensial database lokal: jangan pernah di-commit
+# Kredensial lokal tidak boleh ikut ke repo
 **/config/db.php
-
-# Salinan app/ di tiap personal page = isi rsvp-app/ (disalin atau di-clone saat instalasi)
-personal-*/personal/app/
-
 *.log
-Thumbs.db
 .DS_Store
+Thumbs.db
 .vscode/
 .idea/

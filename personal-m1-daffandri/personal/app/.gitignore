@@ -1,0 +1,9 @@
+# Kredensial dan identitas berada di luar app/, tapi jaga-jaga:
+config/
+db.php.local
+identity.php
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
