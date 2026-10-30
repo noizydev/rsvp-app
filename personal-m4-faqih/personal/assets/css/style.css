@@ -144,6 +144,7 @@ body .served-by a { color: inherit; }
   width: 120px; height: 120px; border-radius: 50%;
   border: 4px solid var(--surface);
   box-shadow: 0 0 0 3px var(--terra), var(--shadow);
+  object-fit: cover;
 }
 .side-id { display: flex; flex-direction: column; }
 .side-name { font-family: var(--font-head); font-weight: 700; font-size: 1.2rem; line-height: 1.3; }

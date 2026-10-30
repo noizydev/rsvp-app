@@ -29,7 +29,7 @@
   <header class="sidebar">
     <div class="side-top">
       <a class="side-brand" href="#profil">
-        <img class="side-avatar" src="assets/img/avatar.svg" alt="Avatar <?= htmlspecialchars(MEMBER_NAMA) ?>" width="120" height="120">
+        <img class="side-avatar" src="assets/img/avatar.jpg" alt="Foto <?= htmlspecialchars(MEMBER_NAMA) ?>" width="120" height="120">
         <span class="side-id">
           <span class="side-name"><?= htmlspecialchars(MEMBER_NAMA) ?></span>
           <span class="side-nim">NIM <?= htmlspecialchars(MEMBER_NIM) ?></span>
