@@ -1,4 +1,4 @@
-/* hasnat.dev — interaksi halaman (vanilla JS, tanpa library) */
+/* Personal page interactions — vanilla JS */
 (function () {
   'use strict';
 
@@ -6,7 +6,7 @@
   root.classList.add('js');
   var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* ---------- 1. Mode gelap / terang (disimpan di localStorage) ---------- */
+  /* Theme */
   var THEME_KEY = 'm0-theme';
   var themeBtn = document.querySelector('.theme-toggle');
 
@@ -21,7 +21,7 @@
 
   var savedTheme = null;
   try { savedTheme = localStorage.getItem(THEME_KEY); } catch (e) { savedTheme = null; }
-  applyTheme(savedTheme === 'light' || savedTheme === 'dark' ? savedTheme : (root.getAttribute('data-theme') || 'dark'));
+  applyTheme(savedTheme === 'light' || savedTheme === 'dark' ? savedTheme : (root.getAttribute('data-theme') || 'light'));
 
   if (themeBtn) {
     themeBtn.addEventListener('click', function () {
@@ -31,14 +31,24 @@
     });
   }
 
-  /* ---------- 2. Menu hamburger (mobile) ---------- */
+  /* Sticky header border when scrolled */
+  var header = document.querySelector('.site-header');
+  if (header) {
+    var onScroll = function () {
+      header.classList.toggle('is-scrolled', window.scrollY > 8);
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+
+  /* Mobile menu */
   var navToggle = document.querySelector('.nav-toggle');
   var nav = document.getElementById('site-nav');
 
   function setNav(open) {
     if (!navToggle || !nav) { return; }
     navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    navToggle.setAttribute('aria-label', open ? 'Tutup menu navigasi' : 'Buka menu navigasi');
+    navToggle.setAttribute('aria-label', open ? 'Tutup menu' : 'Buka menu');
     nav.classList.toggle('is-open', open);
   }
 
@@ -56,40 +66,11 @@
       }
     });
     window.addEventListener('resize', function () {
-      if (window.innerWidth > 860) { setNav(false); }
+      if (window.innerWidth > 900) { setNav(false); }
     });
   }
 
-  /* ---------- 3. Efek mengetik di hero ---------- */
-  var typingEl = document.querySelector('.typing');
-  if (typingEl) {
-    var phrases = [];
-    try { phrases = JSON.parse(typingEl.getAttribute('data-phrases') || '[]'); } catch (e) { phrases = []; }
-    if (!phrases.length) { phrases = [typingEl.textContent]; }
-
-    if (reduceMotion) {
-      typingEl.textContent = phrases[0];
-    } else {
-      var pi = 0, ci = 0, deleting = false;
-      typingEl.textContent = '';
-      var tick = function () {
-        var word = phrases[pi];
-        if (!deleting) {
-          ci++;
-          typingEl.textContent = word.slice(0, ci);
-          if (ci === word.length) { deleting = true; return setTimeout(tick, 1800); }
-          return setTimeout(tick, 55 + Math.random() * 45);
-        }
-        ci--;
-        typingEl.textContent = word.slice(0, ci);
-        if (ci === 0) { deleting = false; pi = (pi + 1) % phrases.length; return setTimeout(tick, 350); }
-        return setTimeout(tick, 28);
-      };
-      setTimeout(tick, 500);
-    }
-  }
-
-  /* ---------- 4. Reveal on scroll (IntersectionObserver) ---------- */
+  /* Reveal on scroll */
   var reveals = document.querySelectorAll('.reveal');
   if (reduceMotion || !('IntersectionObserver' in window)) {
     reveals.forEach(function (el) { el.classList.add('is-visible'); });
@@ -105,7 +86,7 @@
     reveals.forEach(function (el) { io.observe(el); });
   }
 
-  /* Tandai menu aktif sesuai section yang terlihat */
+  /* Active nav section */
   if ('IntersectionObserver' in window) {
     var navLinks = document.querySelectorAll('.nav-list a[href^="#"]');
     var linkMap = {};
@@ -122,7 +103,7 @@
     document.querySelectorAll('main section[id]').forEach(function (s) { spy.observe(s); });
   }
 
-  /* ---------- 5. Filter kategori portofolio ---------- */
+  /* Portfolio filter */
   var filterBtns = document.querySelectorAll('.filter-btn');
   var cards = document.querySelectorAll('.porto-card');
   var filterStatus = document.querySelector('.filter-status');
@@ -147,17 +128,13 @@
     });
   });
 
-  /* ---------- 6. Modal / lightbox portofolio ---------- */
+  /* Portfolio modal */
   var modal = document.getElementById('porto-modal');
   var lastFocus = null;
 
   function openModal(card) {
     if (!modal) { return; }
-    var title = card.getAttribute('data-title') || '';
-    var img = modal.querySelector('.modal-img');
-    img.src = card.getAttribute('data-img') || '';
-    img.alt = 'Ilustrasi proyek ' + title;
-    modal.querySelector('.modal-title').textContent = title;
+    modal.querySelector('.modal-title').textContent = card.getAttribute('data-title') || '';
     modal.querySelector('.modal-tag').textContent = card.getAttribute('data-category') || '';
     modal.querySelector('.modal-detail').textContent = card.getAttribute('data-detail') || '';
     modal.querySelector('.modal-tech').textContent = card.getAttribute('data-tech') || '';
@@ -176,14 +153,13 @@
   }
 
   cards.forEach(function (card) {
-    card.querySelectorAll('.porto-thumb, .porto-open').forEach(function (trigger) {
+    card.querySelectorAll('.porto-open, .porto-thumb').forEach(function (trigger) {
       trigger.addEventListener('click', function () { openModal(card); });
     });
   });
 
   if (modal) {
     modal.querySelector('.modal-close').addEventListener('click', closeModal);
-    /* klik di luar konten (backdrop) menutup modal */
     modal.addEventListener('click', function (e) {
       if (e.target === modal) { closeModal(); }
     });
@@ -192,7 +168,7 @@
     });
   }
 
-  /* ---------- 7. Validasi formulir kontak ---------- */
+  /* Contact form validation */
   var form = document.getElementById('contact-form');
   if (form) {
     var emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
@@ -233,7 +209,7 @@
     });
 
     form.addEventListener('submit', function (e) {
-      e.preventDefault(); /* tidak ada backend: jangan kirim sungguhan */
+      e.preventDefault();
       success.textContent = '';
       var firstInvalid = null;
       Object.keys(rules).forEach(function (name) {
@@ -244,11 +220,10 @@
       var nama = form.elements.nama.value.trim();
       form.reset();
       Object.keys(rules).forEach(function (name) { form.elements[name].removeAttribute('aria-invalid'); });
-      success.textContent = '> pesan diterima. Terima kasih, ' + nama + '! (demo — tidak ada data yang dikirim)';
+      success.textContent = 'Terima kasih, ' + nama + '. Pesan diterima (demo — tidak dikirim ke server).';
     });
   }
 
-  /* ---------- Tahun di footer ---------- */
   var yearEl = document.getElementById('year');
   if (yearEl) { yearEl.textContent = String(new Date().getFullYear()); }
 })();
