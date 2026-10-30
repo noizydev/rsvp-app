@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" role="img" aria-labelledby="p2t">
-  <title id="p2t">Ilustrasi aplikasi mobile KantinKu</title>
+  <title id="p2t">Ilustrasi bot Discord Glitchtrap</title>
   <defs>
     <pattern id="p2stripe" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
       <rect width="8" height="20" fill="#111" opacity=".08"/>
@@ -7,44 +7,41 @@
   </defs>
   <rect width="400" height="260" fill="#FF6B6B"/>
   <rect width="400" height="260" fill="url(#p2stripe)"/>
-  <!-- mangkuk -->
-  <g transform="translate(78 150) rotate(-8)">
-    <path d="M-30 -14 q30 -26 60 0" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
-    <path d="M-12 -24 q4 -10 0 -18 M2 -26 q4 -10 0 -18" fill="none" stroke="#111" stroke-width="3.5" stroke-linecap="round"/>
-    <path d="M-46 -10 h92 a46 40 0 0 1 -92 0 Z" fill="#FFD23F" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
-    <rect x="-56" y="-16" width="112" height="12" rx="6" fill="#FFFDF7" stroke="#111" stroke-width="4"/>
+  <!-- jendela chat -->
+  <rect x="44" y="34" width="250" height="200" rx="14" fill="#111"/>
+  <rect x="36" y="26" width="250" height="200" rx="14" fill="#FFFDF7" stroke="#111" stroke-width="5"/>
+  <path d="M36 62 h250" stroke="#111" stroke-width="4"/>
+  <text x="54" y="51" font-family="'Archivo Black','Arial Black',Arial,sans-serif" font-weight="900" font-size="14" fill="#111"># general</text>
+  <!-- pesan pengguna -->
+  <circle cx="62" cy="88" r="12" fill="#4CC9F0" stroke="#111" stroke-width="3.5"/>
+  <rect x="82" y="78" width="54" height="7" rx="3.5" fill="#111"/>
+  <rect x="82" y="91" width="96" height="16" rx="8" fill="#FFD23F" stroke="#111" stroke-width="3"/>
+  <text x="90" y="103" font-family="'Space Grotesk',Arial,sans-serif" font-weight="700" font-size="11" fill="#111">/level</text>
+  <!-- balasan bot -->
+  <circle cx="62" cy="136" r="12" fill="#B8A4FF" stroke="#111" stroke-width="3.5"/>
+  <path d="M56 136 l4 4 l8 -8" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="82" y="126" width="46" height="7" rx="3.5" fill="#111"/>
+  <rect x="132" y="125" width="26" height="10" rx="3" fill="#7BE0AD" stroke="#111" stroke-width="2.5"/>
+  <text x="145" y="133" text-anchor="middle" font-family="'Space Grotesk',Arial,sans-serif" font-weight="700" font-size="7.5" fill="#111">BOT</text>
+  <rect x="82" y="140" width="184" height="66" rx="8" fill="#FFFFFF" stroke="#111" stroke-width="3.5"/>
+  <rect x="82" y="140" width="8" height="66" rx="4" fill="#B8A4FF" stroke="#111" stroke-width="3"/>
+  <rect x="100" y="152" width="70" height="7" rx="3.5" fill="#111"/>
+  <rect x="100" y="166" width="150" height="12" rx="6" fill="#FFFDF7" stroke="#111" stroke-width="3"/>
+  <rect x="100" y="166" width="104" height="12" rx="6" fill="#7BE0AD" stroke="#111" stroke-width="3"/>
+  <rect x="100" y="186" width="50" height="6" rx="3" fill="#111" opacity=".6"/>
+  <rect x="158" y="186" width="34" height="6" rx="3" fill="#111" opacity=".6"/>
+  <!-- stiker 100 server -->
+  <g transform="translate(336 76) rotate(10)">
+    <circle r="40" fill="#111" transform="translate(5 5)"/>
+    <circle r="40" fill="#FFD23F" stroke="#111" stroke-width="5"/>
+    <text x="0" y="4" text-anchor="middle" font-family="'Archivo Black','Arial Black',Arial,sans-serif" font-weight="900" font-size="26" fill="#111">100</text>
+    <text x="0" y="21" text-anchor="middle" font-family="'Archivo Black','Arial Black',Arial,sans-serif" font-weight="900" font-size="10" fill="#111">SERVER</text>
   </g>
-  <!-- ponsel -->
-  <rect x="160" y="24" width="124" height="226" rx="20" fill="#111"/>
-  <rect x="152" y="16" width="124" height="226" rx="20" fill="#FFFDF7" stroke="#111" stroke-width="5"/>
-  <rect x="196" y="24" width="36" height="8" rx="4" fill="#111"/>
-  <rect x="164" y="40" width="100" height="34" rx="8" fill="#FFD23F" stroke="#111" stroke-width="3.5"/>
-  <rect x="174" y="51" width="56" height="10" rx="5" fill="#111"/>
-  <g stroke="#111" stroke-width="3.5">
-    <rect x="164" y="84" width="100" height="38" rx="8" fill="#FFFFFF"/>
-    <rect x="164" y="130" width="100" height="38" rx="8" fill="#FFFFFF"/>
-    <rect x="164" y="176" width="100" height="38" rx="8" fill="#FFFFFF"/>
-    <circle cx="183" cy="103" r="10" fill="#7BE0AD"/>
-    <circle cx="183" cy="149" r="10" fill="#4CC9F0"/>
-    <circle cx="183" cy="195" r="10" fill="#B8A4FF"/>
-  </g>
-  <g fill="#111" opacity=".7">
-    <rect x="200" y="96" width="50" height="6" rx="3"/><rect x="200" y="106" width="32" height="6" rx="3"/>
-    <rect x="200" y="142" width="44" height="6" rx="3"/><rect x="200" y="152" width="28" height="6" rx="3"/>
-    <rect x="200" y="188" width="54" height="6" rx="3"/><rect x="200" y="198" width="30" height="6" rx="3"/>
-  </g>
-  <rect x="186" y="222" width="56" height="10" rx="5" fill="#111" opacity=".25"/>
-  <!-- stiker pre-order -->
-  <g transform="translate(330 70) rotate(10)">
-    <rect x="-52" y="-18" width="104" height="36" rx="18" fill="#7BE0AD" stroke="#111" stroke-width="4"/>
-    <text x="0" y="6" text-anchor="middle" font-family="'Archivo Black','Arial Black',Arial,sans-serif" font-weight="900" font-size="15" fill="#111">PRE-ORDER</text>
-  </g>
-  <!-- notifikasi -->
-  <g transform="translate(332 176) rotate(-6)">
-    <rect x="-46" y="-26" width="92" height="52" rx="10" fill="#111"/>
-    <rect x="-50" y="-30" width="92" height="52" rx="10" fill="#4CC9F0" stroke="#111" stroke-width="4"/>
-    <path d="M-30 -4 l8 8 l16 -18" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="2" y="-10" width="30" height="7" rx="3.5" fill="#111"/>
-    <rect x="2" y="2" width="20" height="7" rx="3.5" fill="#111"/>
+  <!-- stiker musik -->
+  <g transform="translate(340 184) rotate(-8)">
+    <rect x="-34" y="-30" width="68" height="60" rx="12" fill="#4CC9F0" stroke="#111" stroke-width="4"/>
+    <path d="M-6 12 v-30 l20 -5 v28" fill="none" stroke="#111" stroke-width="4.5" stroke-linejoin="round"/>
+    <circle cx="-12" cy="12" r="7" fill="#111"/>
+    <circle cx="8" cy="7" r="7" fill="#111"/>
   </g>
 </svg>

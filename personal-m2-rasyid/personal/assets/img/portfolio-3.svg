@@ -1,54 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" role="img" aria-labelledby="p3t" shape-rendering="crispEdges">
-  <title id="p3t">Ilustrasi game platformer Pixel Dash</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" role="img" aria-labelledby="p3t">
+  <title id="p3t">Ilustrasi dashboard web Glitchtrap</title>
+  <defs>
+    <pattern id="p3dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2" fill="#111" opacity=".14"/>
+    </pattern>
+  </defs>
   <rect width="400" height="260" fill="#FFD23F"/>
-  <!-- matahari piksel -->
-  <g fill="#FF6B6B" stroke="#111" stroke-width="3">
-    <rect x="322" y="24" width="44" height="44"/>
+  <rect width="400" height="260" fill="url(#p3dots)"/>
+  <!-- jendela browser -->
+  <rect x="36" y="32" width="276" height="200" rx="14" fill="#111"/>
+  <rect x="28" y="24" width="276" height="200" rx="14" fill="#FFFDF7" stroke="#111" stroke-width="5"/>
+  <path d="M28 54 h276" stroke="#111" stroke-width="4"/>
+  <circle cx="46" cy="39" r="5" fill="#FF6B6B" stroke="#111" stroke-width="2.5"/>
+  <circle cx="62" cy="39" r="5" fill="#FFD23F" stroke="#111" stroke-width="2.5"/>
+  <circle cx="78" cy="39" r="5" fill="#7BE0AD" stroke="#111" stroke-width="2.5"/>
+  <rect x="96" y="32" width="150" height="14" rx="7" fill="#FFFFFF" stroke="#111" stroke-width="2.5"/>
+  <!-- sidebar -->
+  <path d="M96 54 v170" stroke="#111" stroke-width="4"/>
+  <g fill="#111">
+    <rect x="42" y="72" width="40" height="8" rx="4"/>
+    <rect x="42" y="92" width="32" height="8" rx="4" opacity=".55"/>
+    <rect x="42" y="112" width="36" height="8" rx="4" opacity=".55"/>
+    <rect x="42" y="132" width="28" height="8" rx="4" opacity=".55"/>
   </g>
-  <!-- awan kotak -->
-  <g fill="#FFFDF7" stroke="#111" stroke-width="3">
-    <rect x="40" y="34" width="60" height="18"/>
-    <rect x="56" y="22" width="30" height="14"/>
-    <rect x="200" y="50" width="72" height="18"/>
-    <rect x="218" y="38" width="34" height="14"/>
+  <!-- sakelar pengaturan -->
+  <g stroke="#111" stroke-width="3.5">
+    <rect x="112" y="70" width="84" height="22" rx="11" fill="#7BE0AD"/>
+    <circle cx="185" cy="81" r="8" fill="#FFFFFF"/>
+    <rect x="112" y="102" width="84" height="22" rx="11" fill="#FFFFFF"/>
+    <circle cx="123" cy="113" r="8" fill="#FFFFFF"/>
+    <rect x="112" y="134" width="84" height="22" rx="11" fill="#7BE0AD"/>
+    <circle cx="185" cy="145" r="8" fill="#FFFFFF"/>
   </g>
-  <!-- tanah -->
-  <rect x="0" y="212" width="400" height="48" fill="#8B5A2B" stroke="#111" stroke-width="4"/>
-  <rect x="0" y="206" width="400" height="12" fill="#7BE0AD" stroke="#111" stroke-width="4"/>
-  <g fill="#111" opacity=".25">
-    <rect x="20" y="230" width="12" height="8"/><rect x="80" y="240" width="12" height="8"/><rect x="150" y="228" width="12" height="8"/>
-    <rect x="230" y="242" width="12" height="8"/><rect x="300" y="230" width="12" height="8"/><rect x="360" y="244" width="12" height="8"/>
+  <!-- grafik -->
+  <rect x="210" y="70" width="80" height="140" rx="8" fill="#FFFFFF" stroke="#111" stroke-width="3.5"/>
+  <g stroke="#111" stroke-width="3">
+    <rect x="222" y="160" width="14" height="38" fill="#4CC9F0"/>
+    <rect x="243" y="132" width="14" height="66" fill="#FF6B6B"/>
+    <rect x="264" y="104" width="14" height="94" fill="#B8A4FF"/>
   </g>
-  <!-- platform melayang -->
-  <g stroke="#111" stroke-width="4">
-    <rect x="96" y="150" width="96" height="22" fill="#B8A4FF"/>
-    <rect x="236" y="110" width="80" height="22" fill="#4CC9F0"/>
+  <rect x="112" y="172" width="84" height="38" rx="8" fill="#4CC9F0" stroke="#111" stroke-width="3.5"/>
+  <text x="154" y="196" text-anchor="middle" font-family="'Archivo Black','Arial Black',Arial,sans-serif" font-weight="900" font-size="13" fill="#111">SIMPAN</text>
+  <!-- stiker database -->
+  <g transform="translate(350 92) rotate(8)">
+    <path d="M-28 -24 v48 a28 10 0 0 0 56 0 v-48" fill="#B8A4FF" stroke="#111" stroke-width="4.5"/>
+    <path d="M-28 0 a28 10 0 0 0 56 0" fill="none" stroke="#111" stroke-width="4"/>
+    <ellipse cx="0" cy="-24" rx="28" ry="10" fill="#FFFDF7" stroke="#111" stroke-width="4.5"/>
   </g>
-  <path d="M120 150 v22 M144 150 v22 M168 150 v22 M256 110 v22 M276 110 v22 M296 110 v22" stroke="#111" stroke-width="2.5"/>
-  <!-- duri -->
-  <path d="M200 206 l10 -18 l10 18 l10 -18 l10 18 Z" fill="#FFFDF7" stroke="#111" stroke-width="3.5" stroke-linejoin="round" shape-rendering="auto"/>
-  <!-- koin -->
-  <g fill="#FFD23F" stroke="#111" stroke-width="3.5" shape-rendering="auto">
-    <circle cx="124" cy="126" r="9"/>
-    <circle cx="152" cy="126" r="9"/>
-    <circle cx="276" cy="86" r="9"/>
-  </g>
-  <!-- karakter -->
-  <g transform="translate(46 154)">
-    <rect x="0" y="12" width="40" height="40" fill="#FF6B6B" stroke="#111" stroke-width="4"/>
-    <rect x="0" y="12" width="40" height="10" fill="#111"/>
-    <rect x="22" y="28" width="8" height="10" fill="#111"/>
-    <rect x="10" y="28" width="8" height="10" fill="#111"/>
-    <rect x="-14" y="22" width="12" height="4" fill="#111"/>
-    <rect x="-20" y="32" width="16" height="4" fill="#111"/>
-    <rect x="-12" y="42" width="10" height="4" fill="#111"/>
-  </g>
-  <!-- bendera -->
-  <rect x="352" y="120" width="6" height="88" fill="#111"/>
-  <path d="M358 122 h34 l-10 12 l10 12 h-34 Z" fill="#7BE0AD" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
-  <!-- HUD skor -->
-  <g transform="translate(150 22)">
-    <rect x="0" y="0" width="120" height="30" fill="#111"/>
-    <text x="60" y="21" text-anchor="middle" font-family="'Courier New',monospace" font-weight="700" font-size="16" fill="#FFD23F">SCORE 04200</text>
+  <!-- stiker kode -->
+  <g transform="translate(348 192) rotate(-10)">
+    <rect x="-38" y="-22" width="76" height="44" rx="22" fill="#FF6B6B" stroke="#111" stroke-width="4"/>
+    <text x="0" y="8" text-anchor="middle" font-family="'Archivo Black','Arial Black',Arial,sans-serif" font-weight="900" font-size="20" fill="#111">&lt;/&gt;</text>
   </g>
 </svg>
