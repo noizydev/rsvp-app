@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Poppins:wght@500;600;700&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css?v=<?= filemtime(__DIR__ . '/assets/css/style.css') ?>">
   <script>
     /* Terapkan tema tersimpan sebelum halaman digambar agar tidak berkedip */
     (function () {
@@ -20,6 +20,7 @@
       try {
         var t = localStorage.getItem('gf-theme');
         if (t === 'light' || t === 'dark') { root.setAttribute('data-theme', t); }
+        else { root.setAttribute('data-theme', 'light'); }
       } catch (e) { /* localStorage tidak tersedia */ }
     })();
   </script>
@@ -28,13 +29,8 @@
 <?php include __DIR__ . '/app/partials/served_by.php'; ?>
   <a class="skip-link" href="#main">Langsung ke konten utama</a>
 
-  <!-- Latar: gradien + gumpalan blur yang melayang -->
-  <div class="bg-scene" aria-hidden="true">
-    <span class="blob blob-1"></span>
-    <span class="blob blob-2"></span>
-    <span class="blob blob-3"></span>
-    <span class="blob blob-4"></span>
-  </div>
+  <!-- Latar bersih -->
+  <div class="bg-scene" aria-hidden="true"></div>
 
   <header class="site-header" id="site-header">
     <div class="nav-wrap glass">

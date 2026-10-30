@@ -29,7 +29,7 @@
   function effectiveTheme() {
     var attr = root.getAttribute('data-theme');
     if (attr === 'light' || attr === 'dark') { return attr; }
-    return mqLight && mqLight.matches ? 'light' : 'dark';
+    return 'light';
   }
   function syncThemeButton() {
     if (!themeBtn) { return; }
@@ -41,7 +41,11 @@
   }
 
   var stored = readTheme();
-  if (stored === 'light' || stored === 'dark') { root.setAttribute('data-theme', stored); }
+  if (stored === 'light' || stored === 'dark') {
+    root.setAttribute('data-theme', stored);
+  } else {
+    root.setAttribute('data-theme', 'light');
+  }
   syncThemeButton();
 
   if (themeBtn) {
