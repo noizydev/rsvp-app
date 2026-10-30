@@ -315,6 +315,7 @@ main { display: block; }
 .avatar-ring img {
   position: relative; width: 100%; height: 100%; border-radius: 50%;
   border: 3px solid var(--glass-border);
+  object-fit: cover;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 
