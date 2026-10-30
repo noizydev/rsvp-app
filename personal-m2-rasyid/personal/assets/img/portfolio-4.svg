@@ -1,60 +1,59 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" role="img" aria-labelledby="p4t">
-  <title id="p4t">Ilustrasi game Tebak Kata Nusantara</title>
+  <title id="p4t">Ilustrasi materi praktikum struktur data</title>
   <defs>
-    <pattern id="p4grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0 H0 V24" fill="none" stroke="#111" stroke-width="1.5" opacity=".14"/>
+    <pattern id="p4grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0 H0 V20" fill="none" stroke="#111" stroke-width="1" opacity=".12"/>
     </pattern>
+    <marker id="p4arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#111"/>
+    </marker>
   </defs>
   <rect width="400" height="260" fill="#B8A4FF"/>
   <rect width="400" height="260" fill="url(#p4grid)"/>
-  <!-- ubin huruf -->
-  <g font-family="'Archivo Black','Arial Black',Arial,sans-serif" font-weight="900" font-size="34" text-anchor="middle" fill="#111">
-    <g transform="translate(70 92) rotate(-6)">
-      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#111" transform="translate(5 5)"/>
-      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#FFFDF7" stroke="#111" stroke-width="4"/>
-      <text y="12">K</text>
-    </g>
-    <g transform="translate(140 86) rotate(4)">
-      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#111" transform="translate(5 5)"/>
-      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#7BE0AD" stroke="#111" stroke-width="4"/>
-      <text y="12">A</text>
-    </g>
-    <g transform="translate(210 94) rotate(-3)">
-      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#111" transform="translate(5 5)"/>
-      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#FFFDF7" stroke="#111" stroke-width="4"/>
-      <text y="12">T</text>
-    </g>
-    <g transform="translate(280 86) rotate(6)">
-      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#111" transform="translate(5 5)"/>
-      <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#FFD23F" stroke="#111" stroke-width="4"/>
-      <text y="12">A</text>
-    </g>
+  <!-- papan tulis -->
+  <rect x="32" y="30" width="336" height="190" rx="14" fill="#111"/>
+  <rect x="24" y="22" width="336" height="190" rx="14" fill="#FFFDF7" stroke="#111" stroke-width="5"/>
+  <!-- linked list -->
+  <g stroke="#111" stroke-width="3.5">
+    <rect x="44" y="44" width="52" height="30" rx="6" fill="#FFD23F"/>
+    <path d="M80 44 v30" />
+    <rect x="124" y="44" width="52" height="30" rx="6" fill="#FFD23F"/>
+    <path d="M160 44 v30" />
+    <rect x="204" y="44" width="52" height="30" rx="6" fill="#FFD23F"/>
+    <path d="M240 44 v30" />
+    <path d="M88 59 h30" marker-end="url(#p4arrow)"/>
+    <path d="M168 59 h30" marker-end="url(#p4arrow)"/>
+    <path d="M248 59 h28" marker-end="url(#p4arrow)"/>
   </g>
-  <!-- slot jawaban -->
-  <g stroke="#111" stroke-width="4" fill="#FFFDF7">
-    <rect x="62" y="160" width="40" height="44" rx="6"/>
-    <rect x="110" y="160" width="40" height="44" rx="6"/>
-    <rect x="158" y="160" width="40" height="44" rx="6"/>
-    <rect x="206" y="160" width="40" height="44" rx="6"/>
-    <rect x="254" y="160" width="40" height="44" rx="6"/>
+  <text x="300" y="65" font-family="'Archivo Black','Arial Black',Arial,sans-serif" font-weight="900" font-size="14" fill="#111">NULL</text>
+  <!-- stack -->
+  <g stroke="#111" stroke-width="3.5">
+    <path d="M52 100 v94 h64 v-94" fill="none" stroke-linejoin="round"/>
+    <rect x="58" y="164" width="52" height="24" rx="4" fill="#4CC9F0"/>
+    <rect x="58" y="136" width="52" height="24" rx="4" fill="#7BE0AD"/>
+    <rect x="58" y="108" width="52" height="24" rx="4" fill="#FF6B6B"/>
   </g>
-  <g font-family="'Archivo Black','Arial Black',Arial,sans-serif" font-weight="900" font-size="24" text-anchor="middle" fill="#111">
-    <text x="82" y="191">B</text>
-    <text x="130" y="191">A</text>
-    <text x="178" y="191" fill="#FF6B6B">?</text>
+  <text x="84" y="204" text-anchor="middle" font-family="'Space Grotesk',Arial,sans-serif" font-weight="700" font-size="11" fill="#111">stack</text>
+  <!-- tree -->
+  <g stroke="#111" stroke-width="3.5">
+    <path d="M226 116 L188 154 M226 116 L264 154 M188 154 L168 188 M188 154 L208 188 M264 154 L284 188"/>
+    <circle cx="226" cy="116" r="15" fill="#FFD23F"/>
+    <circle cx="188" cy="154" r="13" fill="#4CC9F0"/>
+    <circle cx="264" cy="154" r="13" fill="#4CC9F0"/>
+    <circle cx="168" cy="188" r="11" fill="#7BE0AD"/>
+    <circle cx="208" cy="188" r="11" fill="#7BE0AD"/>
+    <circle cx="284" cy="188" r="11" fill="#7BE0AD"/>
   </g>
-  <!-- timer -->
-  <g transform="translate(352 72)">
-    <circle r="30" fill="#FF6B6B" stroke="#111" stroke-width="4"/>
-    <circle r="20" fill="#FFFDF7" stroke="#111" stroke-width="3"/>
-    <path d="M0 0 V-14 M0 0 L9 6" stroke="#111" stroke-width="4" stroke-linecap="round"/>
-    <rect x="-6" y="-40" width="12" height="8" rx="2" fill="#111"/>
+  <!-- stiker A+ -->
+  <g transform="translate(334 150) rotate(12)">
+    <circle r="30" fill="#111" transform="translate(4 4)"/>
+    <circle r="30" fill="#FF6B6B" stroke="#111" stroke-width="5"/>
+    <text x="0" y="9" text-anchor="middle" font-family="'Archivo Black','Arial Black',Arial,sans-serif" font-weight="900" font-size="24" fill="#111">A+</text>
   </g>
-  <!-- bintang -->
-  <g fill="#FFD23F" stroke="#111" stroke-width="3.5" stroke-linejoin="round">
-    <path transform="translate(340 168) scale(1.1)" d="M0 -18 L5 -6 L18 -6 L8 2 L12 15 L0 7 L-12 15 L-8 2 L-18 -6 L-5 -6 Z"/>
-    <path transform="translate(366 214) scale(.75) rotate(15)" d="M0 -18 L5 -6 L18 -6 L8 2 L12 15 L0 7 L-12 15 L-8 2 L-18 -6 L-5 -6 Z"/>
+  <!-- spidol -->
+  <g transform="translate(300 236) rotate(-16)">
+    <rect x="-46" y="-9" width="76" height="18" rx="5" fill="#4CC9F0" stroke="#111" stroke-width="4"/>
+    <path d="M30 -9 l18 9 l-18 9 Z" fill="#FFFDF7" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="-46" y="-9" width="18" height="18" rx="4" fill="#111"/>
   </g>
-  <rect x="62" y="222" width="232" height="12" rx="6" fill="#FFFDF7" stroke="#111" stroke-width="3"/>
-  <rect x="64" y="224" width="150" height="8" rx="4" fill="#4CC9F0"/>
 </svg>
